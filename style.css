@@ -59,8 +59,8 @@ a {
 .container-one .left {
     display: flex;
     flex-direction: column;
-    width: 350px;
-    gap: 15px;
+    width: 400px;
+    gap: 16px;
 }
 
 .container-one h2 {
@@ -84,6 +84,7 @@ button {
   color: #F9FAF8;
   width: fit-content;
   font-size: 18px;
+  border: none
 }
 
 .container-one .right {
@@ -104,7 +105,7 @@ button {
 
 .container-two {
     background: #F9FAF8;
-    gap: 30px;
+    gap: 24px;
     flex-direction: column;
 }
 
@@ -136,8 +137,77 @@ button {
     height: 100px;
 }
 
+.container-two h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.container-three {
+    background: #E5E7EB;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    color: #1F2937;
+    gap: 24px;
+}
+
+.quote-words {
+    text-align: center;
+    font-weight: 300;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-person {
+    font-weight: 900;
+    text-align: right;
+    padding: 0 32px;
+    font-size: 18px;
+}
+
+.container-four {
+    display: flex;
+    background: #F9FAF8;
+}
+
+.ad {
+    display: flex;
+    border-radius: 12px;
+    padding: 0 60px;
+    background: #3882F6;
+    width: 900px;
+    height: 150px;
+    justify-content: space-between;
+    box-sizing:border-box;
+    align-items: center;
+}
+
+.container-four .left {
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+    gap: 8px;
+}
+
+.container-four .subtext {
+    font-size: 18px;
+}
+
+.container-four .text {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.container-four button {
+    border:2px solid #F9FAF8
 }
